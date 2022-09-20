@@ -1,0 +1,26 @@
+* {
+  margin: 0 0 10px;
+  padding: 0;
+  border: 0 none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  table,
+  tr,
+  td,
+  div,
+  p,
+  span,
+  body {
+    width: 100%;
+  }
+}
